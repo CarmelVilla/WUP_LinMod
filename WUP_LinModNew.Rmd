@@ -77,6 +77,8 @@ model.2 <- lm(SIMS~GRIP,data=data)
 plot(SIMS~GRIP,data=data)
 abline(model.2, col='red')
 ```
+As the grip strength increases so does the SIMS. The spread of the points around the regression line in the grip plot are more spread out then the arm strength plot.
+
 
 ### Now add in scatterplot
 
