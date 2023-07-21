@@ -161,4 +161,4 @@ Model three is smaller than model two because the rss for model three is the bes
 
 # Discussions and Conclusion
 
-Model three is the best it has a smaller rss.
+Model three is the best it has a smaller rss. Model 1 is better than 2 b ut it needs to be smaller making the 3rd model the best.
