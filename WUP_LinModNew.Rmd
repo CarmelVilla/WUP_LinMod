@@ -115,7 +115,7 @@ The prediction interval is from -0.54 to 3.1 and 2.03 for SIM score.
 ```{r}
 cor(SIMS~ARM+GRIP,data=data)
 ```
-The correlation is 0.69 which shows that arm strength is related to sim score.
+The correlation is 0.73 which shows that arm strength is related to sim score.
 
 ### inferential
 ```{r}
@@ -131,14 +131,6 @@ newdata = data.frame(ARM=88, GRIP=94)
 predict(model.3, newdata, interval="predict")
 ```
 The prediction interval is from -1.7 to 3.1 for SIM score.
-
-
-
-
-
-  
-
-  
 
 ## Comparing nested models ANOVA Test
 
@@ -161,4 +153,4 @@ Model three is smaller than model two because the rss for model three is the bes
 
 # Discussions and Conclusion
 
-Model three is the best it has a smaller rss. Model 1 is better than 2 b ut it needs to be smaller making the 3rd model the best.
+Model three is the best it has a smaller rss. Model 1 is better than 2 but it needs to be smaller making the 3rd model the best.
